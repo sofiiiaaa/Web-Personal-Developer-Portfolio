@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Web Portoflio - Sofia Riggi</title>
+    <meta name="title" content="Personal Web Portoflio - Sofia Riggi">
+    <meta name="description" content="My personal web portofolio!">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Personal Web Portoflio - Sofia Riggi">
+    <meta property="og:description" content="My personal web portofolio!">
+    <meta property="og:image" content="./assets/preview.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <div class="row">
+            <div class="col-12 text-end">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#aboutme">About me</a>
+        <a href="#linguistical-skill">linguistical skills</a>
+        <a href="#technological-skill">technological skills</a>
+        <a href="#contact-me">Contact me</a>
+    </div>
+
+    <nav class="navbar navbar-expand-sm" id="extended-navbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+
+            <div class="dropdown">
+                <button class="nav-link dropdown-toggle" id="dropdown-skills" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    My skills
+                </button>
+                <ul class="dropdown-menu"  aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#linguistical-skill">linguistical skills</a></li>
+                    <li><a class="dropdown-item" href="#technological-skill">technological skills</a></li>
+                </ul>
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-me">
+                    Contact me
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    
+    <div class="container-fluid main-container">
+        <div class="row " id="row_first_spot">
+            <div class="col-12 col-md-8 align-self-center ">
+                <h1 id="first-text">Hi! I am Sofia 🌺 <br> I am a Philosopher and <br/>Frontend developer.</h1>
+            </div>
+            <div class="col-12 col-md-3 align-self-center text-center" id="col-small-flower">
+                <img class="img-flower img-fluid" id="flower" src="./assets/flower-2.png">
+            </div>
+        </div>
+        <svg id="svg-path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path id="waves-1" fill-opacity="1" d="M0,160L1440,256L1440,320L0,320Z"></path>
+        </svg>
+        <div class="second-spot">
+
+            <div class="row">
+                <div class="col-12 ">
+                    <h1 class="left-title"> Something about me:</h1>
+                    <p class="left-text">
+    
+                        I love to learn new things! <br>
+                        I'm actually a Student at the University of philosophy of Trento and I'm almost done with my
+                        master.<br>
+                        Other thant that, I love to spend my time knowing new people and learning about new lenguages and
+                        cultures; for sure, I love traveling!<br>
+                        In my free time I like to stay with my family and friends and also I enjoy playing the piano and
+                        singing alone or with my friends.<br>
+                        During the last period I challenged myself with opening a youtube-channel and coding and I found out
+                        that I really like and anjoy both of them!<br>
+                        In general, I consider myself a friendly and happy person, who loves to stay in relative small
+                        groups, and to work in team.
+                        
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <svg id="svg-path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path id="waves-2" d="M0,320L1440,96L1440,0L0,0Z"></path>
+        </svg>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class='right-title'> My linguistical skills:</h1>
+                </div>
+            </div>
+
+            <div class="row row-lskill">
+                <div class="col-12">
+                    <table class="table center">
+                        <tr>
+                            <td class="table-success">Italian</td>
+                            <td class="table-success">C2</td>
+                        </tr>
+                </div>
+            </div>
+    
+            <div class="row row-lskill">
+                <div class="col-12">
+                    <tr>
+                        <td class="table-danger">Spanish</td>
+                        <td class="table-danger">C2</td>
+                    </tr>
+                </div>
+            </div>
+    
+            <div class="row row-lskill">
+                <div class="col-12">
+                    <tr>
+                        <td class="table-warning">English</td>
+                        <td class="table-warning">C1</td>
+                    </tr>
+                </div>
+            </div>
+    
+            <div class="row row-lskill">
+                <div class="col-5 col-md-8">
+                    <tr>
+                        <td class="table-info">German</td>
+                        <td class="table-info">A2</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <svg id='svg-path' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path id="waves-3" fill-opacity="1" d="M0,160L1440,256L1440,320L0,320Z"></path>
+        </svg>
+        <div class="container fourth-spot" id="technological-skill">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class='left-title'> My technological skills:</h1>
+                </div>
+            </div>
+            <div class="row text-center t-skill">
+                <div class="col-4">
+                    <i class="devicon-html5-plain-wordmark html-img"></i>
+                </div>
+                <div class="col-4">
+                    <i class="devicon-css3-plain  html-img"></i>
+                </div>
+                <div class="col-4">
+                    <i class="devicon-bootstrap-plain html-img"></i>
+                </div>
+            </div>
+            <div class="row text-center t-skill">
+                <div class="col-4">
+                    <i class="devicon-sass-plain html-img"></i>
+                </div>
+                <div class="col-4">
+                    <i class="devicon-git-plain html-img"></i>
+                </div>
+                <div class="col-4">
+                    <i class="devicon-github-original html-img"></i>
+                </div>
+            </div>
+        </div>
+    
+        <svg id='svg-path' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path id="waves-3" d="M0,320L1440,96L1440,0L0,0Z"></path>
+        </svg>       
+        <div class="final-form" id="contact-me">
+            <div class="background">
+                <div class="container">
+                    <div class="screen">
+                        <div class="screen-header">
+                            <div class="screen-header-left">
+                                <div class="screen-header-button close"></div>
+                                <div class="screen-header-button maximize"></div>
+                                <div class="screen-header-button minimize"></div>
+                            </div>
+                            <div class="screen-header-right">
+                                <div class="screen-header-ellipsis"></div>
+                                <div class="screen-header-ellipsis"></div>
+                                <div class="screen-header-ellipsis"></div>
+                            </div>
+                        </div>
+                        <div class="screen-body">
+                            <div class="screen-body-item left">
+                                <div class="app-title">
+                                    <span>CONTACT</span>
+                                    <span>ME</span>
+                                </div>
+                            </div>
+                            <div class="screen-body-item">
+                                <div class="app-form">
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="NAME" value="to Sofia Riggi">
+                                    </div>                               
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="OGGETTO" id="oggetto_mail">
+                                    </div>
+                                    <div class="app-form-group message">
+                                        <input class="app-form-control" placeholder="MESSAGE" id="message_mail">
+                                    </div>
+                                    <div class="app-form-group buttons">
+                                        <button class="app-form-button" onclick="cancel()">CANCEL</button>
+                                        <button class="app-form-button" onclick="send()">SEND</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row" id="text-footer">
+                    <div class="col-3">
+                        <a class="btn btn-social-icon btn-google"
+                            href="https://www.youtube.com/channel/UCHFzWfhnchJuP6gVHbkAzIA"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-social-icon " href="mailto:sofiariggi@libero.it"><i
+                                class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-social-icon btn-github" href="https://github.com/sofiiiaaa"><i
+                                class="fa fa-github fa-lg"></i></a>
+                    </div>
+                    <div class="col-3">
+                        <a class="btn btn-social-icon btn-linkedin" href="http://linkedin.com/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div clas="row" id="copyright">
+                <h6> © Sofia Riggi</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> -->
+    <!-- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script> -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
