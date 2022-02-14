@@ -48,6 +48,14 @@
   #extended-navbar #dropdown-skills {
     border: 0px;
     background-color: transparent; }
+  #extended-navbar .dropdown-menu {
+    background-color: pink;
+    border-radius: 20px;
+    border: #c27c98 solid; }
+    #extended-navbar .dropdown-menu #first-dropdown-item {
+      border-radius: 20px; }
+    #extended-navbar .dropdown-menu #second-dropdown-item {
+      border-radius: 20px; }
 
 .container-fluid {
   background-color: #ffe6f7;

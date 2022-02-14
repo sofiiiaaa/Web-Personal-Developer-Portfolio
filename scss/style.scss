@@ -71,7 +71,7 @@ $third-color: rgb(148, 100, 108);
 
 #extended-navbar {
   // background-color: $gradient;
-  background-image: linear-gradient(270deg, #ed6ea0 10%, #ec8c69 92%);;
+  background-image: linear-gradient(270deg, #ed6ea0 10%, #ec8c69 92%);
   padding-right: 20px;
   .nav-link {
     color: whitesmoke;
@@ -81,7 +81,24 @@ $third-color: rgb(148, 100, 108);
   #dropdown-skills {
     border: 0px;
     background-color: transparent;
+
   }
+  .dropdown-menu{
+    background-color: pink;
+    border-radius:20px;
+    border:#c27c98 solid;    
+    #first-dropdown-item{
+      border-radius:20px;
+      // border-top:#e7abc3 solid ;
+      // border-bottom:#e7abc3 solid ;
+    }
+    #second-dropdown-item{
+      border-radius:20px;
+      // border-top:#e7abc3 solid ;
+      // border-bottom:#e7abc3 solid ;
+    }
+  }
+  
 }
 
 
@@ -120,6 +137,7 @@ $third-color: rgb(148, 100, 108);
     font-family: $main-font;
     font-size: 2.5rem;
     text-align: center;
+    
 
   }
   
@@ -222,7 +240,7 @@ footer {
   #text-footer {
     margin-top: 40px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 20px;    
   }
   
   #copyright {
