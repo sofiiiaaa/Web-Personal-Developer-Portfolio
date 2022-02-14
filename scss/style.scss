@@ -2,7 +2,7 @@
 
 $main-font: "Luxurious Roman", cursive;
 
-$background-main: #ffe1f5;
+$background-main: #ffe6f7;
 $second-color: rgb(190, 88, 76);
 $third-color: rgb(148, 100, 108);
 
@@ -100,6 +100,9 @@ $third-color: rgb(148, 100, 108);
     min-width: 100%;
   }
 
+  .third-spot{
+    min-height:100vh;
+  }
 
   .fourth-spot {
     background-color: $third-color;
@@ -157,6 +160,7 @@ $third-color: rgb(148, 100, 108);
 
 .left-title {
   margin-left: 5%;
+  margin-bottom: 70px;
 }
 
 .left-text {
@@ -169,7 +173,8 @@ $third-color: rgb(148, 100, 108);
 
 .right-title {
   text-align: right;
-  margin-right: 5%;
+  margin-right: 5%;  
+  margin-bottom: 150px;
 }
 
 .right-text {
@@ -196,7 +201,7 @@ $third-color: rgb(148, 100, 108);
 }
 
 .t-skill {
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 //

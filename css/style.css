@@ -50,12 +50,15 @@
     background-color: transparent; }
 
 .container-fluid {
-  background-color: #ffe1f5;
+  background-color: #ffe6f7;
   padding: 0 !important; }
 
 .main-container .second-spot {
   background-color: #be584c;
   min-width: 100%; }
+
+.main-container .third-spot {
+  min-height: 100vh; }
 
 .main-container .fourth-spot {
   background-color: #94646c;
@@ -79,7 +82,7 @@
     padding-top: 3rem; } }
 
 #svg-path {
-  background-color: #ffe1f5; }
+  background-color: #ffe6f7; }
   #svg-path #waves-1 {
     fill: #be584c; }
   #svg-path #waves-2 {
@@ -88,7 +91,8 @@
     fill: #94646c; }
 
 .left-title {
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-bottom: 70px; }
 
 .left-text {
   margin-left: 50px;
@@ -99,7 +103,8 @@
 
 .right-title {
   text-align: right;
-  margin-right: 5%; }
+  margin-right: 5%;
+  margin-bottom: 150px; }
 
 .right-text {
   margin-left: 20px;
@@ -119,7 +124,7 @@
   color: white; }
 
 .t-skill {
-  margin-top: 100px; }
+  margin-bottom: 100px; }
 
 footer {
   background-image: linear-gradient(0deg, #ed6ea0 10%, #ec8c69 92%);
